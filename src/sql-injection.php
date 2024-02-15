@@ -6,6 +6,8 @@ if (PHP_SAPI === 'cli') {
 
 $file_db = new PDO('sqlite:../database/database.sqlite');
 
+
+
 if (NULL == $_GET['id']) $_GET['id'] = 1;
 
 $sql = 'SELECT * FROM employees WHERE employeeId = ' . $_GET['id'];
