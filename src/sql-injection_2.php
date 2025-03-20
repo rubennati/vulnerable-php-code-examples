@@ -9,7 +9,7 @@ $id = $_GET['id'] ?? 1;
 $file_db = new PDO('sqlite:../database/database.sqlite');
 
 foreach ($file_db->query('SELECT * FROM customers WHERE customerId = ' . $id) as $row) {
-    $customer = $row['LastName'] . " - " . $row['Email'] . "\n";
+    $customer = $row['LastName'] . " - " . $row['Email_Id'] . "\n";
 
     echo $customer;
 }
