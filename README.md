@@ -2,7 +2,7 @@
 
 A collection of deliberately vulnerable PHP code examples for use with static analysis tools (SATs), security training, and research.
 
-Originally created as part of a Master's thesis in IT-Security at the University of Applied Sciences Vienna, where multiple open-source PHP SATs were evaluated and chained into a vulnerability scanning toolchain.
+Originally created as part of a Master's program project in IT-Security at the University of Applied Sciences Vienna (FH Technikum Wien).
 
 ## Vulnerabilities Covered
 
