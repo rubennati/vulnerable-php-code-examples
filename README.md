@@ -15,6 +15,9 @@ Originally created as part of a Master's program project in IT-Security at the U
 | `src/path-traversal.php` | Path Traversal / Local File Inclusion |
 | `src/csrf.php` | Cross-Site Request Forgery (CSRF) |
 | `src/insecure-file-upload.php` | Insecure File Upload |
+| `src/idor.php` | Insecure Direct Object Reference (IDOR) |
+| `src/open-redirect.php` | Open Redirect |
+| `src/sensitive-data-exposure.php` | Sensitive Data Exposure (Hardcoded Credentials) |
 
 ### Tool-specific Test Files
 
