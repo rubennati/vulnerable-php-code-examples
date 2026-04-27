@@ -1,4 +1,4 @@
-# vulnerable-php-code-examples
+# PHP Vulnerability Examples for Static Analysis
 
 A collection of deliberately vulnerable PHP code examples for use with static analysis tools (SATs), security training, and research.
 
