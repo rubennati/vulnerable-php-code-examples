@@ -50,6 +50,10 @@ Run any PHP SAT against the files in `src/`. The SQLite database in `database/` 
 
 Based on research comparing open-source PHP static analysis tools and their effectiveness when combined into a toolchain. The evaluated SATs include Progpilot, phpcs-security-audit, php-security-scanner, OWASP WAP, SonarPHP, RIPS, and others.
 
+**Related projects (FH Technikum Wien, PRJ1/PRJ2):**
+- [vulnerability-code-scanner](https://gitlab.com/FHTW-MCS-PRJ/vulnerability-code-scanner) — Laravel-based toolchain combining the three selected SATs
+- [PHP-Vulnerability-test-suite](https://gitlab.com/FHTW-MCS-PRJ/PHP-Vulnerability-test-suite) — 42,212 PHP test cases (29,258 safe / 12,954 unsafe)
+
 ## Warning
 
 This repository contains intentionally insecure code. Do not deploy or use in production environments.
