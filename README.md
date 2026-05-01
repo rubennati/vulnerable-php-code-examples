@@ -18,6 +18,15 @@ Originally created as part of a Master's program project in IT-Security at the U
 | `src/idor.php` | Insecure Direct Object Reference (IDOR) |
 | `src/open-redirect.php` | Open Redirect |
 | `src/sensitive-data-exposure.php` | Sensitive Data Exposure (Hardcoded Credentials) |
+| `src/remote-file-inclusion.php` | Remote File Inclusion (RFI) |
+| `src/insecure-deserialization.php` | Insecure Deserialization |
+| `src/xxe.php` | XML External Entity (XXE) |
+| `src/ldap-injection.php` | LDAP Injection |
+| `src/security-misconfiguration.php` | Security Misconfiguration |
+| `src/weak-cryptography.php` | Weak Cryptography |
+| `src/session-fixation.php` | Session Fixation |
+| `src/type-juggling.php` | Type Juggling — Loose Comparison |
+| `src/type-juggling_2.php` | Type Juggling — Type Casting |
 
 ### Tool-specific Test Files
 
